@@ -2,16 +2,7 @@
 
 ## Overview
 
-This project implements a comprehensive customer segmentation and profiling system for educational purposes, demonstrating how a real company might approach ML model data feature ingestion and customer analysis. The system is designed to process various types of customer data, extract meaningful features, and generate insightful profiles for business decision-making.
-
-## Project Structure
-
-The project is organized into several key components:
-
-1. Data Ingestion (`utils/data_ingestion.py`)
-2. Feature Extraction (`utils/feature_extraction.py`)
-3. Customer Profiling (`utils/customer_profiling.py`)
-4. Configuration and Utilities (`utils/config.py`)
+This project implements a comprehensive customer segmentation and profiling system for educational purposes, demonstrating how a real company might approach ML model data feature ingestion and customer analysis.  
 
 ## Components
 
@@ -40,13 +31,6 @@ The `profiler` classes in `customer_profiling.py` use the extracted features to 
 - Demographic and loyalty information
 - Price sensitivity analysis
 - Product preferences and shopping patterns
-
-### 4. Configuration and Utilities
-
-The `config.py` file contains utility functions and configurations:
-
-- Performance timing decorator
-- Data saving functions
 
 ## Usage
 
